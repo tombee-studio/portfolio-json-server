@@ -12,5 +12,62 @@
       "content": "Wow such content!",
       "username": "zero_cool"
     }
+  ],
+  "projects": [
+    {
+      "name": "emonotate.com",
+      "description": "僕の大学時代の一大プロジェクトだと思います。物語を読んで感動した人の中には感情曲線というものを使って自分の感動を共有する人がいます。そこで感情曲線を使って、感動を共有できるようなツールを目指して作っています。",
+      "image": "https://placehold.jp/640x480.png",
+      "year": "2019",
+      "links": [
+        {
+          "reference": "https://emonotate.herokuapp.com/",
+          "label": "参照"
+        }
+      ],
+      "tags": [
+        "Python", "Django", "Javascript", "React.js"
+      ]
+    },
+    
+    {
+      "name": "TGL Devcon",
+      "description": "ARを使った仮想的なFPSを作りました。GPSにより位置情報を取得して対戦ができるようにしました。たしか、ルーム機能は実装していなかったので2人対戦のゲームだった気がします。イベントの送受信がうまくいかず、うまくいったときには友達とハグした記憶が。",
+      "image": "https://placehold.jp/640x480.png",
+      "year": "2018",
+      "tags": [
+        "Swift", "iOS"
+      ]
+    },
+    {
+      "name": "KC3",
+      "description": "LINE Clovaを利用して「はい」「いいえ」をいうとストーリーが進むゲームを作りました。手順を間違えると、おじさんにキレられます。ただ、声はデフォルトの女性アシスタントみたいな声です。",
+      "image": "https://placehold.jp/640x480.png",
+      "year": "2018",
+      "links": [
+        {
+          "reference": "https://twitter.com/LINE_DEV/status/1098519684150812672",
+          "label": "参照"
+        }
+      ],
+      "tags": [
+        "LINE Clova", "Javascript", "Node.js"
+      ]
+    },
+    {
+      "name": "Hack Aichi",
+      "description": "機械学習を用いたサービスを提案するハッカソンでした。チームで1週間の間に機械学習モデル構築し、ウェブサービスを構築しました。機械学習モデルを構築するのはチームの中に得意なメンバーがいたので、わたしはAmazon Web ServiceやFlaskなどを利用してフロントエンドの構築を行いました。",
+      "image": "https://placehold.jp/640x480.png",
+      "year": "2020",
+      "links": [
+        {
+          "reference": "https://www.pref.aichi.jp/soshiki/kikaku/hack-aichi2020-3.html",
+          "label": "参照"
+        }
+      ],
+      "tags": [
+        "Flask", "Python", "Amazon Web Service"
+      ]
+    }
   ]
 }
